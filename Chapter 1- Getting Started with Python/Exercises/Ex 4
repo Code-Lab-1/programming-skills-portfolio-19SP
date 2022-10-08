@@ -1,0 +1,4 @@
+a=input('Enter:')
+b=input('Enter:')
+c=input('Enter:')
+print(a,b,c)
