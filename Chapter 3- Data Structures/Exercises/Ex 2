@@ -1,0 +1,5 @@
+names=['Julisha', 'Rachita', 'Vandana', 'Abiya']
+print('Hi, how are you',names[0].title(),'?')
+print('Hi, how are you',names[1].title(),'?')
+print('Hi, how are you',names[2].title(),'?')
+print('Hi, how are you',names[3].title(),'?')
