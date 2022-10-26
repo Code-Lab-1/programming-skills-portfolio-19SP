@@ -1,0 +1,6 @@
+cost_of_1_USB_stick=6
+amount=50
+buy=f'The girl can buy {50//6} USB sticks'
+left=f'The girl will have {50%6} £ left'
+print(buy)
+print(left)
