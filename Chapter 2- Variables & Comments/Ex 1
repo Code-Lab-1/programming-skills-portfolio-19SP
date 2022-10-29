@@ -1,0 +1,4 @@
+msg='Python is fun!'
+print(msg)
+msg='Python is very fun!'
+print(msg)

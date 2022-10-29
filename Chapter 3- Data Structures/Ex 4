@@ -1,0 +1,4 @@
+invite=['Aai', 'Janhavi', 'Anuska']
+print(f'You are invited to my dinner, {invite[0]}!')
+print(f'You are invited to my dinner, {invite[1]}!')
+print(f'You are invited to my dinner, {invite[2]}!')

@@ -1,0 +1,2 @@
+fav_no=int(input('Enter your favorite number: '))
+print(f'My favorite number is {fav_no}')

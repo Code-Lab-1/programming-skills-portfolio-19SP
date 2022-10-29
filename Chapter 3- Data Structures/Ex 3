@@ -1,0 +1,5 @@
+fav_trans=['Aston Martin Vulcan', 'Chevy Camero', 'Maserati MC12', 'Mercedes Maybach']
+print(f'I would like to own a {fav_trans[0]}.')
+print(f'I would like to own a {fav_trans[1]}.')
+print(f'I would like to own a {fav_trans[2]}.')
+print(f'I would like to own a {fav_trans[3]}.')

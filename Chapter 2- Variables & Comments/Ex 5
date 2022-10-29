@@ -1,0 +1,6 @@
+USB=6
+amt=50
+buy=amt//USB
+lft=amt%USB
+print(f'She can buy £{buy} USB sticks.')
+print(f'She will have £{lft} left')

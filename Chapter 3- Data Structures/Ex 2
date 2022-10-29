@@ -1,0 +1,6 @@
+names=['Rachita', 'Julisha', 'Vandana', 'Abiya', 'Krish']
+print(f'Hi {names[0]}, how are you?')
+print(f'Hi {names[1]}, how are you?')
+print(f'Hi {names[2]}, how are you?')
+print(f'Hi {names[3]}, how are you?')
+print(f'Hi {names[4]}, how are you?')

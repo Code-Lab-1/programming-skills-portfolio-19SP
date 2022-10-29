@@ -1,0 +1,4 @@
+a='I'
+b='am'
+c='awesome'
+print(a,b,c)
