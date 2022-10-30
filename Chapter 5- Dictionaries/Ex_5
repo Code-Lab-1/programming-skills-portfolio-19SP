@@ -1,0 +1,5 @@
+dit={'Dog':'Peter','Cat':'Sarah','Parrot':'Henry'}
+pet=[]
+pet.append(dit)
+
+

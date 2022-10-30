@@ -1,0 +1,7 @@
+info={'first_name':'Sarah', 'last_name':'Maas', 'age':18, 'city':'Dubai'}
+print(info)
+print(info.keys())
+print(info.values())
+print(info.items())
+
+

@@ -1,0 +1,9 @@
+new={'Variable':'A value that can be changed', 'Comments':'Annotation in the source code', 
+'Indentation':'Spaces at the beginning of a code line', 'Function':'Block of code that you can use over and over again', 
+'Operators':'Character that represents a specific mathematical or logical action or process'}
+
+print('Variable :',new['Variable'])
+print('Comments :',new['Comments'])
+print('Indentation :',new['Indentation'])
+print('Function :',new['Function'])
+print('Operators :',new['Operators'])

@@ -1,0 +1,15 @@
+rivers = {
+    'Nile':'Egypt',
+    'Amazon':'South America',
+    'Thames':'England',
+    'Indus':'Asia',
+    }
+
+for river, country in rivers.items():
+    print('The',river,'flows through',country)
+
+for river in rivers.keys(): 
+    print('Rivers : ', river)
+
+for country in rivers.values():
+    print('Countries : ', country)

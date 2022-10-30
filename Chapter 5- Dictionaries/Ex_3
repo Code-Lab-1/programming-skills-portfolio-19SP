@@ -1,0 +1,11 @@
+new = {
+    'Variable':'A value that can be changed', 'Comments':'Annotation in the source code', 
+    'Indentation':'Spaces at the beginning of a code line', 'Function':'Block of code that you can use over and over again', 
+    'Operators':'Character that represents a specific mathematical or logical action or process',
+    'Key':'First item in a key-value pair in a dictionary', 'Value': 'An item associated with a key in a dictionary',
+    'List': 'A collection of items in a particular order', 
+    'Datatype':'Classification that specifies which type of value a variable has',
+    'String':'Arrays of bytes representing unicode characters',
+    }
+for wrd, defn in new.items():
+    print(wrd,':',defn)
