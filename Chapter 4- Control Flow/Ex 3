@@ -1,0 +1,14 @@
+def color(alien_color):
+    if alien_color=='Green' or alien_color=='green':
+        print('5 Points Earned')
+    elif alien_color=='Yellow' or alien_color=='yellow':
+        print('10 Points Earned')
+    elif alien_color=='red' or alien_color=='Red':
+        print('15 Points Earned')
+    
+color_1='red'
+color(color_1)
+color_2='green'
+color(color_2)
+color_3='yellow'
+color(color_3)

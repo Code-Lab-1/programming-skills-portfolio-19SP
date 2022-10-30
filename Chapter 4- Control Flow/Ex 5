@@ -1,0 +1,11 @@
+fav_frt=['mango','orange','apple','banana','strawberry']
+if 'mango' in fav_frt:
+    print('You really like mangos!')
+elif 'apple' in fav_frt:
+    print('You really like apples!')
+elif 'orange' in fav_frt:
+    print('You really like strawberries!')
+elif 'banana' in fav_frt:
+    print('You really like bananas!')
+else:
+    None
