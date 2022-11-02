@@ -1,5 +1,22 @@
-dit={'Dog':'Peter','Cat':'Sarah','Parrot':'Henry'}
 pet=[]
-pet.append(dit)
+pet1 = {
+    'animal': 'cat',
+    'name': 'henry',
+    'owner': 'Ash',
+    'weight': 30,
+}
+pet2 = {
+    'animal': 'dog',
+    'name': 'Zoe',
+    'owner': 'Rachita',
+    'weight': 35,
+}
+pet.append(pet1)
+pet.append(pet2)
+
+for pet1 in pet:
+    print('Information about',pet1['name'].title(),': ')
+    for x,y in pet1.items():
+        print('\t',x,': ',y)
 
 
