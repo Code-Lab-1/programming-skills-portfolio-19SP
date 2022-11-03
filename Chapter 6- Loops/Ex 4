@@ -1,0 +1,10 @@
+sandwich_orders=['veg','cheese','grilled cheese','chicken']
+finished_sandwiches=[]
+
+while sandwich_orders:
+    now=sandwich_orders.pop()
+    print(now,'is being made.')
+    finished_sandwiches.append(now)
+print('\n')
+for done in finished_sandwiches:
+    print(done,'is prepared.')

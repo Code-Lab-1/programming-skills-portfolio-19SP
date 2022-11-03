@@ -1,0 +1,15 @@
+print('The deli has run out of pastrami!\n')
+sandwich_orders=['veg','pastrami','cheese','pastrami','grilled cheese','chicken','pastrami']
+finished_sandwiches=[]
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
+
+while sandwich_orders:
+    now=sandwich_orders.pop()
+    print(now,'is being made.')
+    finished_sandwiches.append(now)
+
+print('\n')
+for done in finished_sandwiches:
+    print(done,'is prepared.')
+print('\n')
