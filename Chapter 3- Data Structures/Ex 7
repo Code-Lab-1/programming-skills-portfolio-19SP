@@ -1,0 +1,26 @@
+visit=['rome','greece','new york','london','canada']
+print("Original order:\n",visit,'\n')
+
+print("Alphabetical:\n",sorted(visit),'\n')
+
+print("Original order:\n",visit,'\n')
+
+print("Reverse alphabetical:\n",sorted(visit,reverse=True),'\n')
+
+print("Original order:\n",visit,'\n')
+
+print("Reversed:")
+visit.reverse()
+print(visit,'\n')
+
+print("Original order:")
+visit.reverse()
+print(visit,'\n')
+
+print("Alphabetical")
+visit.sort()
+print(visit,'\n')
+
+print("Reverse alphabetical")
+visit.sort(reverse=True)
+print(visit,'\n')

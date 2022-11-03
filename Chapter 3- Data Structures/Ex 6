@@ -1,0 +1,15 @@
+invite=['Aai', 'Janhavi', 'Anuska']
+print(f'You are invited to my dinner, {invite[0]}!')
+print(f'You are invited to my dinner, {invite[1]}!')
+print(f'You are invited to my dinner, {invite[2]}!\n')
+
+print('Only two people are allowed to attend the dinner!\n')
+print(f'I am sorry {invite[2]}, you are not invited to the dinner!\n')
+invite.pop(2)
+
+print(f'You are still invited to my dinner, {invite[0]}!')
+print(f'You are still invited to my dinner, {invite[1]}!')
+
+del invite[0]
+del invite[0]
+print(invite)
