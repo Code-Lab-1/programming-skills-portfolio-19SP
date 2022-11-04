@@ -1,0 +1,7 @@
+def cal(a,b,c,d):
+  print('Avg : ',(a+b+c+d)/4)
+  print('Percent of first no. : ',a/(a+b+c+d)*100)
+  print('Percent of second no. : ',b/(a+b+c+d)*100)
+  print('Percent of third no. : ',c/(a+b+c+d)*100)
+  print('Percent of fourth no. : ',d/(a+b+c+d)*100)
+cal(5,5,5,5)

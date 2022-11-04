@@ -1,0 +1,3 @@
+new={6:'India',2:'UAE',3:'USA',5:'Russia',4:'Korea',1:'England'}
+for key in sorted(new):
+    print(key,new[key])

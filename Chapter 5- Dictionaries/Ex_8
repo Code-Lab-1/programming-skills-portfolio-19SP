@@ -1,0 +1,6 @@
+d1={1:'India',2:'UAE',3:'USA'}
+d2={4:'Russia',5:'Korea',6:'England'}
+D={}
+D.update(d1)
+D.update(d2)
+print(D)

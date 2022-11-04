@@ -1,0 +1,8 @@
+new={1:'India',2:'UAE',3:'USA',4:'Russia',5:'Korea',6:'England'}
+def check(x):
+  if x in new:
+      print('Key is present in the dictionary')
+  else:
+      print('Key is not present in the dictionary')
+check(1)
+check(10)

@@ -1,0 +1,4 @@
+stu={"name":"sharvari",'age':18, 'gender':'female','class':'CC','email':'sharvarip2004@gmail.com'}
+print(stu)
+print(stu['age'])
+print(len(stu))

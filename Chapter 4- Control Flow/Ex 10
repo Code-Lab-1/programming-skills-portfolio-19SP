@@ -1,0 +1,8 @@
+nums=[2, 3, 4, 5]
+res=0
+for x in nums:
+    if(x%2==0):
+        continue
+    else:
+        res += x
+print('The sum of numbers that are not divisible by 2 is',res)

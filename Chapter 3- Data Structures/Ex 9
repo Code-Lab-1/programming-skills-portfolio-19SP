@@ -1,0 +1,6 @@
+name=['Shar','Juli','Abi','Rachita']
+print(name,'\n')
+name.append('Vandu')
+print(name,'\n')
+name.remove('Abi')
+print(name,'\n')

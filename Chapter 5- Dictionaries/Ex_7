@@ -1,0 +1,17 @@
+stu={"name":"sharvari",'age':18, 'gender':'female','class':'CC','email':'sharvarip2004@gmail.com'}
+print(stu)
+print(stu.keys(),'\n')
+print(stu.values(),'\n')
+print(stu.items(),'\n')
+
+stu['age']=20
+print(stu,'\n')
+
+stu.update({'BG':'a+'})
+print(stu,'\n')
+
+stu.pop('name')
+print(stu,'\n')
+
+stu.popitem()
+print(stu,'\n')

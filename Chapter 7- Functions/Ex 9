@@ -1,0 +1,11 @@
+x=int(input('ENTER THE VALUE:'))
+y=int(input('ENTER THE VALUE:'))
+def sum(x,y):
+  print('Sum : ',x+y)
+def subt(x,y):
+  print('Difference : ',x-y)
+def multp(x,y):
+  print('Multiplication : ',x*y)
+sum(x,y)
+subt(x,y)
+multp(x,y)

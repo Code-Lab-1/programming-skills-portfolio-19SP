@@ -1,0 +1,9 @@
+name=input('enter name:')
+age=int(input('enter age:'))
+contact=int(input('enter contact no:'))
+email=input('enter mail:')
+dprt=input('enter department:')
+level=input('enter level:')
+
+info=[name,age,contact,email,dprt,level]
+print('\nClient information : ',info)

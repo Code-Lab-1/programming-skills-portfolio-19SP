@@ -1,0 +1,3 @@
+r=int(input('Enter the radius of the sphere : '))
+V=4/3*3.1415*r**3 
+print('The Spheres volume is : ',V)

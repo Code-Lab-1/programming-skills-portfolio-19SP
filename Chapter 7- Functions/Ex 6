@@ -1,0 +1,10 @@
+def add():
+  a=int(input('Enter the no: '))
+  b=int(input('Enter the no: '))
+  print('Sum:',a+b)
+add()
+
+#function using parameters
+def add(a,b):
+  print('Sum:',a+b)
+add(23,5)

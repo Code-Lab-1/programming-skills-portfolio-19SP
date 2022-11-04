@@ -1,0 +1,7 @@
+name=input('Enter the name of the student : ')
+id=int(input('Enter the ID : '))
+def marks(english, math = 90, science = 100):
+    print('Marks in : English is - ', english,', Math - ',math, ', Science - ',science,'\n')
+marks(60)
+marks(99, science=94)
+marks(science=100, math=100, english=100)

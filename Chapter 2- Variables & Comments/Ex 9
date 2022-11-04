@@ -1,0 +1,9 @@
+string = '  xoxo love xoxo   '
+print(string.strip())
+
+print(string.strip(' xoe'))
+
+print(string.strip('stx'))
+
+string = 'android is awesome'
+print(string.strip('w'))

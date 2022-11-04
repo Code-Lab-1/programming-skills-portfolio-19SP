@@ -1,0 +1,9 @@
+name=input('enter name:')
+age=int(input('enter age:'))
+address=input('enter address:')
+
+info=[name,age,address]
+print('Personal information : ',info)
+
+print('Address',address)
+type(address)

@@ -1,0 +1,15 @@
+name=input('enter student name:')
+math=int(input('enter math marks:'))
+phy=int(input('enter physics marks:'))
+chem=int(input('enter chemistry marks:'))
+eng=int(input('enter english marks:'))
+csi=int(input('enter computer science marks:'))
+
+marks_obtained=math+phy+chem+eng+csi
+print('TOTAL MARKS OBTAINED BY STUDENT:',marks_obtained)
+
+total_marks=500
+
+print('AVERAGE MARKS OF THE STUDENT:',marks_obtained/5)
+
+print('PERCENTAGE OF THE STUDENT:',(marks_obtained/total_marks)*100)

@@ -1,0 +1,7 @@
+import turtle
+circle=40
+radius=120
+angle=100
+for x in range(circle):
+    turtle.circle(radius)
+    turtle.left(angle)
