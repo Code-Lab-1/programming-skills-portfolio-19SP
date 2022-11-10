@@ -1,0 +1,5 @@
+n=['Shar','Juli','Rachita','Vandana']
+def names(n):
+  for x in n:
+    print(x)
+names(n)
